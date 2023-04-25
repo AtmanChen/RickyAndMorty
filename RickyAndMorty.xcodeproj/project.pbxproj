@@ -22,6 +22,8 @@
 		719BFD4129F7FAD200E82E42 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BFD4029F7FAD200E82E42 /* RMService.swift */; };
 		719BFD4329F7FAE600E82E42 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BFD4229F7FAE600E82E42 /* RMRequest.swift */; };
 		719BFD4529F7FB5C00E82E42 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BFD4429F7FB5C00E82E42 /* RMEndpoint.swift */; };
+		719BFD4729F800B100E82E42 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BFD4629F800B100E82E42 /* RMOrigin.swift */; };
+		719BFD4929F800FF00E82E42 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BFD4829F800FF00E82E42 /* RMSingleLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		719BFD4029F7FAD200E82E42 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		719BFD4229F7FAE600E82E42 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		719BFD4429F7FB5C00E82E42 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		719BFD4629F800B100E82E42 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		719BFD4829F800FF00E82E42 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				719BFD3129F7EF7D00E82E42 /* RMLocation.swift */,
 				719BFD3329F7EF8A00E82E42 /* RMCharacter.swift */,
 				719BFD3529F7EFA600E82E42 /* RMEpisode.swift */,
+				719BFD4629F800B100E82E42 /* RMOrigin.swift */,
+				719BFD4829F800FF00E82E42 /* RMSingleLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				719BFD4729F800B100E82E42 /* RMOrigin.swift in Sources */,
+				719BFD4929F800FF00E82E42 /* RMSingleLocation.swift in Sources */,
 				719BFD3B29F7F01D00E82E42 /* RMLocationViewController.swift in Sources */,
 				719BFD3629F7EFA600E82E42 /* RMEpisode.swift in Sources */,
 				719BFD1B29F7ED0500E82E42 /* RMTabViewController.swift in Sources */,
